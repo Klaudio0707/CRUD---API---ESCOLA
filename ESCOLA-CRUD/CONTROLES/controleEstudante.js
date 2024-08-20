@@ -1,10 +1,10 @@
 const mysql = require("mysql2");
 
 const db = mysql.createConnection({
-host: "localhost",
+host: "mysql.railway.internal",
 user: "root",
-password: "sua_senha",
-database: "Escola"
+password: "utTguYwrLrUCLwhscFoJQTsXgrDFilwK",
+database: "railway"
 });
 
 db.connect(err => {
